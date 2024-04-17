@@ -66,7 +66,13 @@ Untuk menginstall node_modules bisa dengan mengetikan perintah
 docker-compose exec app php artisan migrate --seed
 ```
 
-### Step 11 Jalankan app di browser
+### Step 11 membuat JWT Secret
+Untuk membuat JWT Secret cukup dengan menjalankan perintah
+```
+docker-compose exec app php artisan jwt:secret
+```
+
+### Step 12 Jalankan app di browser
 Untuk menjalankan app di browser cukup mengunjungi halaman ini di prambanan anda
 ```
 http://localhost:8000

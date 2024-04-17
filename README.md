@@ -77,4 +77,15 @@ Untuk menjalankan app di browser cukup mengunjungi halaman ini di prambanan anda
 ```
 http://localhost:8000
 ```
+Untuk user login bisa menggunakan user berikut
+1. Untuk Admin
+```
+email: admin@example.com
+password: password
+```
 
+2. Untuk user
+```
+email: user@example.com
+password: password
+```

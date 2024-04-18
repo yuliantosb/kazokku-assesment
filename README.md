@@ -1,4 +1,4 @@
-# Kazoku Assement
+# Kazoku Assessment
 
 ## Setup
 ### Step 1 Meng-cloning app

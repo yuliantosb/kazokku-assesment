@@ -27,7 +27,7 @@ anda bisa mengubah sesuai keinginan anda, ini hanya sebagai sampel, tetapi untuk
 ### Step 4 Build app kedalam docker image
 Silahkan masuk ke folder app `cd kazokku-assesment` lalu ketikan perintah 
 ```
-docker build app
+docker-compose build app
 ```
 
 ### Step 5 Menjalankan docker image

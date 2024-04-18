@@ -55,13 +55,13 @@ docker-compose exec app npm install
 ```
 
 ### Step 9 Membuild frontend
-Untuk menginstall node_modules bisa dengan mengetikan perintah
+Untuk membuild frontend bisa dengan mengetikan perintah
 ```
 docker-compose exec app npm run build
 ```
 
 ### Step 10 Migrate dan seed
-Untuk menginstall node_modules bisa dengan mengetikan perintah
+Untuk migrate dan seed bisa dengan mengetikan perintah
 ```
 docker-compose exec app php artisan migrate --seed
 ```

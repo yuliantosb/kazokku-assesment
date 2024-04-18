@@ -31,4 +31,15 @@ RUN mkdir -p /home/$user/.composer && \
 # Set working directory
 WORKDIR /var/www
 
+# nodejs
+ARG NODE_VERSION=18.17.0
+ARG NODE_PACKAGE=node-v$NODE_VERSION-linux-x64
+ARG NODE_HOME=/opt/$NODE_PACKAGE
+
+ENV NODE_PATH $NODE_HOME/lib/node_modules
+ENV PATH $NODE_HOME/bin:$PATH
+
+RUN curl https://nodejs.org/dist/v$NODE_VERSION/$NODE_PACKAGE.tar.gz | tar -xzC /opt/
+
+
 USER $user
